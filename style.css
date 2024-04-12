@@ -203,7 +203,7 @@
     color: black;
   }
 
-  @media(min-width: 701px) and (max-width: 1100px) {
+  @media(min-width: 450px) and (max-width: 1100px) {
     
     .skill-box{
       display: flex;
@@ -229,9 +229,8 @@
     .name{
       font-size: 3rem;
       top: 3rem;
-      left: 0px;
+      left: 15.5rem;
       display: inline ;
-      position: static;
       
     }
     .designation{
@@ -242,15 +241,11 @@
 
   }
 
-  @media (max-width: 700px){
+  @media (max-width: 450px){
 
 
     .lappy{
-      width: 100%;
-      position: absolute;
       top: 5px;
-      border-radius: 35px;
-      z-index: 15;
     }
 
     .container1{
@@ -258,65 +253,42 @@
     }
 
     .name{
-      display: flex;
-      font-size: 2.7rem;
-      justify-content: center;
+      font-size: 2.5rem;
       top: 15rem;
-      left: 0px;
-      display: inline;
+      left: 0.5rem;
     }
     .designation{
       display: fixed;
       font-size: 1rem;
       top: 18rem;
-      left : 5.2rem;
+      left : 5rem;
       color: darkblue;
     }
 
 .profile{
   height: 50%;
   width: 50%;
-  border-radius: 50%;
-  border: 5px solid darkgreen;
   padding: 2px;
-}
-
-.hello{
-  font-size: 3rem;
-  padding: 0px;
-  margin-top : 30px;
-  margin-bottom: 20px;
-  text-transform:uppercase;
 }
 
 .about{
   padding: 0% 10%;
   font-size: 1rem;
-  margin-top: 0px;
 }
 
     
 .skill-box{
-  display: flex;
   flex-direction: row;
   margin: 10%;
   text-align: center;
 }
 
-.skills{
-  align-items: center;
-}
-
 .myskills{
   font-size: 2.5rem;
-  text-decoration: underline;
-  text-transform:uppercase;
-  text-align: center;
 }
 
 .web{
   margin: 0px 10px;
-  text-align:left;
   width: 100%;
   height: 100%;
 }
@@ -331,7 +303,6 @@
 
 .headin{
   font-size: 1.5rem;
-  padding: 0%;
   margin-bottom: 9px;
   text-align: center;
 }
@@ -343,11 +314,6 @@
 
 .pra{
   display: none;
-  font-size: 0.73rem;
-  padding: 0%;
-  margin: 0% 0px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .praa{
@@ -355,12 +321,7 @@
 }
 
 .contact{
-  text-align: center;
   margin: 5% 0% ;
-}
-
-.summary{
-  margin-bottom: 50px;
 }
 
 .get-in-touch{
@@ -370,7 +331,6 @@
 
 .headinn{
   font-size: 1.2rem;
-  font-weight: 350 !important;
   margin-bottom: 20px;
 
 }
@@ -379,39 +339,22 @@
   height: 60px;
   width: 10rem;
   font-size: 1.5rem;
-  background-color: green ;
-  border-radius: 50px;
-  font-weight: 00 !important;
-}
-
-
-.headerr{
-  margin-bottom:350px;
 }
 
 .bg-green{
-  width: 100%;
   height: 100px;
-  position: absolute;
 }
 
 .linkss{
-  position: relative;
-  display: flex;
-  align-content: center;
-  justify-content: center;
   top: 1.5rem;
 }
 
 .online{
-  margin: 0% 9%;
   font-size: 1rem;
 
 }
 
 .naam{
-  position: relative;
-  display: flex;
   align-content: center;
   justify-content: center;
   top: 3rem;
@@ -419,9 +362,4 @@
   font-size: 0.7rem;
 }
 
-  .decor{
-    text-decoration: none;
-    color: black;
-  }
-
-  }
+}
