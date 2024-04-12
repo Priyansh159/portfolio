@@ -1,10 +1,11 @@
-body {
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.container {
     background: linear-gradient(90deg, #0fc0dd,#fdde5a);
-    background-size: 100% 100%;
-    margin: 0%;
-    padding: 0%;
+    background-size: 200% 200%;
     position: relative;
-
 
   }
   
@@ -19,7 +20,6 @@ body {
 }
 .container1{
   margin-bottom: 25rem;
-
 }
 .designation{
   font-size: 1.7rem;
@@ -179,11 +179,11 @@ body {
 .naam{
   position: relative;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  justify-content: right;
   top: 11rem;
-  left: 13px;
+  left: 6rem;
   font-size: 1.3rem;
+  width: 50%;
 }
 
 .fontt{
@@ -203,17 +203,225 @@ body {
     color: black;
   }
 
-  @media (max-width: 1100px) {
+  @media(min-width: 450px) and (max-width: 1100px) {
     
+    .skill-box{
+      display: flex;
+      flex-direction: row;
+      margin: 8%;
+      text-align: center;
+    }
+
+    .web-img{
+      width: 100%;
+      height: 100%;
+      float: none;
+      border: 4px solid darkgreen;
+    }
+
+    .web{
+      margin: 0px 10px;
+      text-align:left;
+      width: 100%;
+      height: 100%;
+    }
+
     .name{
       font-size: 3rem;
       top: 3rem;
-      left: 50%;
+      left: 0px;
+      display: inline ;
+      position: static;
+      
     }
     .designation{
       font-size: 1.3rem;
       top: 6.7rem;
       left: 20rem;
     }
+
+  }
+
+  @media (max-width: 450px){
+
+
+    .lappy{
+      width: 100%;
+      position: absolute;
+      top: 5px;
+      border-radius: 35px;
+      z-index: 15;
+    }
+
+    .container1{
+      margin-bottom: 19rem;
+    }
+
+    .name{
+      display: flex;
+      font-size: 2.7rem;
+      justify-content: center;
+      top: 15rem;
+      left: 0px;
+      display: inline;
+    }
+    .designation{
+      display: fixed;
+      font-size: 1rem;
+      top: 18rem;
+      left : 5.2rem;
+      color: darkblue;
+    }
+
+.profile{
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  border: 5px solid darkgreen;
+  padding: 2px;
+}
+
+.hello{
+  font-size: 3rem;
+  padding: 0px;
+  margin-top : 30px;
+  margin-bottom: 20px;
+  text-transform:uppercase;
+}
+
+.about{
+  padding: 0% 10%;
+  font-size: 1rem;
+  margin-top: 0px;
+}
+
+    
+.skill-box{
+  display: flex;
+  flex-direction: row;
+  margin: 10%;
+  text-align: center;
+}
+
+.skills{
+  align-items: center;
+}
+
+.myskills{
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-transform:uppercase;
+  text-align: center;
+}
+
+.web{
+  margin: 0px 10px;
+  text-align:left;
+  width: 100%;
+  height: 100%;
+}
+
+
+.web-img{
+  width: 100%;
+  height: 100%;
+  float: none;
+  border: 1px solid darkgreen;
+}
+
+.headin{
+  font-size: 1.5rem;
+  padding: 0%;
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+.dmodel{
+  padding-top: 1px;
+  padding-bottom:10px ;
+}
+
+.pra{
+  display: none;
+  font-size: 0.73rem;
+  padding: 0%;
+  margin: 0% 0px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.praa{
+  margin: 0% 50px;
+}
+
+.contact{
+  text-align: center;
+  margin: 5% 0% ;
+}
+
+.summary{
+  margin-bottom: 50px;
+}
+
+.get-in-touch{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.headinn{
+  font-size: 1.2rem;
+  font-weight: 350 !important;
+  margin-bottom: 20px;
+
+}
+
+.buttn{
+  height: 60px;
+  width: 10rem;
+  font-size: 1.5rem;
+  background-color: green ;
+  border-radius: 50px;
+  font-weight: 00 !important;
+}
+
+
+.headerr{
+  margin-bottom:350px;
+}
+
+.bg-green{
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+
+.linkss{
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  top: 1.5rem;
+}
+
+.online{
+  margin: 0% 9%;
+  font-size: 1rem;
+
+}
+
+.naam{
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  top: 3rem;
+  left :6.5rem;
+  font-size: 0.7rem;
+}
+
+  .decor{
+    text-decoration: none;
+    color: black;
+  }
 
   }
