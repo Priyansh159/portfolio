@@ -203,7 +203,7 @@
     color: black;
   }
 
-  @media(min-width: 450px) and (max-width: 1100px) {
+  @media(min-width: 701px) and (max-width: 1100px) {
     
     .skill-box{
       display: flex;
@@ -242,7 +242,7 @@
 
   }
 
-  @media (max-width: 450px){
+  @media (max-width: 700px){
 
 
     .lappy{
