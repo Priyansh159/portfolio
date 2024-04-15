@@ -12,23 +12,33 @@
 .name{
   display: inline ;
   font-size: 4rem;
-  position: absolute;
-  top: 3rem;
-  left: 23rem;
+  position: relative;
   z-index: 20;
   text-decoration: underline;
 }
+
+.introo{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 40px;
+  left: 50%;
+  width: 100%;
+
+}
+
 .container1{
   margin-bottom: 25rem;
+
 }
 .designation{
   font-size: 1.7rem;
   position: absolute;
-  top: 8rem;
-  left: 29.3rem;
+  top: 70px;
   color: lightgreen;
   z-index: 20;
   font-weight: 500 !important;
+  left: 14%;
 }
  
 .container2{
@@ -205,7 +215,7 @@
     color: black;
   }
 
-  @media(min-width: 450px) and (max-width: 1100px) {
+  @media(min-width: 900px) and (max-width: 1200px) {
     
     .skill-box{
       display: flex;
@@ -230,21 +240,70 @@
 
     .name{
       font-size: 3rem;
-      top: 3rem;
-      left: 15.5rem;
-      display: inline ;
-      
+      top: 10px;
+      margin-bottom: 0;
     }
     .designation{
       font-size: 1.3rem;
-      top: 6.7rem;
-      left: 20rem;
+      margin-top: 0;
+      left: 13%;
+    }
+  }
+
+  @media(min-width: 600px) and (max-width: 900px) {
+    .name{
+      font-size: 2.5rem;
+      top: 10px;
+      left: 10px;
+      margin-bottom: 0;
+    }
+    .designation{
+      font-size: 1rem;
+      margin-top: 0;
+      top: 58px;
+      left: 20%;
     }
 
+    .introo{
+      left: 40%;
+    }
+  }
+
+  @media(min-width: 450px) and (max-width: 600px) {
+    .introo{
+      left: 30%;
+      width: 100%;
+    }
+    .name{
+      font-size: 2.2rem;
+      top: 10px;
+      left: 10px;
+      margin-bottom: 0;
+    }
+    .designation{
+      font-size: 0.8rem;
+      margin-top: 0;
+      top: 50px;
+      left: 30%;
+    }
   }
 
   @media (max-width: 450px){
+    .introo{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 40px;
+      left: 50%;
+      width: 150%;
+    
+    }
+    
 
+
+    .introo{
+      left: 0%;
+    }
 
     .lappy{
       top: 5px;
@@ -363,5 +422,4 @@
   left :6.5rem;
   font-size: 0.7rem;
 }
-
-}
+  }
