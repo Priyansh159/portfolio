@@ -2,6 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
+
 .container {
     background: linear-gradient(90deg, #0fc0dd,#fdde5a);
     background-size: 200% 200%;
@@ -295,7 +296,7 @@
     }
   }
 
-  @media(min-width: 450px) and (max-width: 600px) {
+  @media(min-width: 460px) and (max-width: 600px) {
     .introo{
       left: 30%;
       width: 100%;
@@ -314,7 +315,7 @@
     }
   }
 
-  @media (max-width: 450px){
+  @media (max-width: 460px){
     .introo{
       position: absolute;
       display: flex;
@@ -361,21 +362,31 @@
   font-size: 1rem;
 }
 
+.desc_space{
+  margin-bottom: 70px;
+}
     
 .skill-box{
-  flex-direction: row;
+  flex-direction: column;
   margin: 10%;
   text-align: center;
+
+}
+
+.less_space{
+  margin-bottom: 0px !important;
 }
 
 .myskills{
   font-size: 2.5rem;
+
 }
 
 .web{
   margin: 0px 10px;
   width: 100%;
   height: 100%;
+  margin-bottom: 2.5rem ;
 }
 
 
@@ -390,6 +401,7 @@
   font-size: 1.5rem;
   margin-bottom: 9px;
   text-align: center;
+  margin-top: 7px;
 }
 
 .dmodel{
